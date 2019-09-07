@@ -1,0 +1,77 @@
+<!-- 
+	Creador: Nahum Blanco Rojas
+	Proyecto del curso de WEB
+	El siguiente documento contiene el código HTML de lapágina pricipal del proyecto
+-->
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Boogle</title>
+		<!-- Archivo de referencia para el css de la página -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Principal.css">
+		<script>
+			/*
+				Abrir la siguiente pagina
+				Verificar que la barra no esté en blanco
+				Solicitar la consulta de búsqueda
+			*/
+			function buscarLibro() 
+			{
+				//	Segmento de variables
+				var titulo_autor = "";
+				var valor_barra = "";
+				//	Se obtiene la categoría
+				titulo_autor = document.getElementById("combobox").value;
+				//	Se obtiene el valor de la barra de búsqueda
+				var valor_barra = document.getElementById("barra").value;
+				//	Se compara el contenido con vacío
+				if(valor_barra.length > 0)
+				{								
+					//	Se avanza a la siguiente página		
+					var queryString = "?"+ titulo_autor + "&" + valor_barra;
+					window.location.href = "PaginaBusqueda.html" + queryString;								
+				}
+				//	Es vacío (no se debe hacer la consulta)
+				else
+				{
+					alert("No Sabe");
+				}
+			}
+		</script>
+	</head>
+
+	<body class="pagina" background="FondoPrincipal.jpeg">
+		<!-- Parte superior de la página -->
+		<header class="encabezado">
+			<img class="imagenLogo" src="Logo.png">
+			<!-- Este es el combobox -->
+			<select id="combobox" class="combobox">
+				<option value="Nombre">Nombre</option>
+				<option value="Autor">Autor</option>
+			</select>
+			<!-- Esta es la barra de búsqueda -->
+			<input id="barra" class="barraBusqueda" type="textContent" placeholder="Ingrese para buscar">
+			<!-- Este es el botón de búsqueda -->	
+			<button class="btn_buscar" onclick="buscarLibro()">Buscar</button>
+		</header>
+
+		<!-- Parte del centro de la página -->
+		<section class="cuerpo">
+			<article class="articuloPrincipal">
+				<title class="tituloArticulo">Busca cualquier libro</title>
+				<div class="contenido">Ahora con Boogle.com te facilitamos la búsqueda del libro
+				que tanto deseas encontrar por medio de una página
+				amigable al usuario con variedad de filtros para llegar al libro que buscas</div>
+			</article>
+		</section>
+		
+		<!-- Parte inferior de la página -->
+		<footer class="piePagina">
+			<br/>
+			<p class="textoFooter">&copy; Copyright 2019</p>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,370 @@
+.pagina
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	height: 100%;
+
+	display: inline-block;
+}
+.encabezado
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.cuerpo
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	margin-top: 50px;
+	display: inline-block;
+}
+.piePagina
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	margin-top: 200px;
+	display: inline-block;
+}
+.textoFooter
+{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+	color: #42454B;
+}
+.combobox
+{
+	width: 18%;
+	position: relative;
+	top: 45%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	color: #42454B;
+	display: inline-block;
+}
+.barraBusqueda
+{
+	width: 50%;
+	position: relative;
+	top: 45%;
+  	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	color: #42454B;
+  	display: inline-block;
+}
+.btn_buscar 
+{
+	width: 13%;
+	position: relative;
+	top: 45%;
+	background-color: #4F8CFE;
+  	font-family: "Comic Sans MS", cursive, sans-serif;
+  	font-size: 100%;
+  	color: #42454B;
+  	display: inline-block;
+}
+.articuloPrincipal
+{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	left:25%;
+  	top: 0%;
+	display: inline-block;
+}
+.tituloArticulo
+{
+	width: 100%;
+	height: 20%;
+	text-align: left;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 400%;
+
+	font-weight: bold;
+	color: #42454B;
+	display: inline-block;
+}
+.contenido
+{
+	width: 100%;
+	height: 80%;
+	text-align: left;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 150%;
+
+	font-weight: bold;
+	color: #42454B;
+
+	display: inline-block;
+}
+.imagenLogo
+{
+	width: 8%;
+	height: 100%;
+}
+.cuerpo_busqueda
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-top: 50px;
+
+	width: 90%;
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	display: inline-block;
+}
+.contenedor_filtros
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+	border-style: groove;
+
+	-webkit-box-shadow: 6px 7px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 7px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 7px 1px 0px rgba(0,0,0,0.75);
+
+	display: inline-block;
+}
+.contenedor_libros
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 74%;
+	height: 560px;
+	float: left;
+	margin-left: 1%;
+
+	-webkit-box-shadow: 6px 7px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 7px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 7px 1px 0px rgba(0,0,0,0.75);
+
+	border-style: groove;
+	overflow: scroll;
+	display: inline-block;
+}
+.filtros
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	float: left;
+	margin: 5%;
+	width: 90%;
+	display: inline-block;
+}
+.titulo_filtros
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+
+	color: #42454B;
+	display: inline-block;
+}
+.comboboxFiltros
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	color: #42454B;
+	display: inline-block;
+}
+.boton_buscar_filtros
+{
+	float: center;
+	width: 100%;
+	background-color: #4F8CFE;
+  	font-family: "Comic Sans MS", cursive, sans-serif;
+  	font-size: 100%;
+  	color: #42454B;
+  	display: inline-block;
+}
+.form_estrellas 
+{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 300%;
+}
+
+input[type="radio"] 
+{
+  display: none;
+}
+
+label
+{
+  color: grey;
+}
+
+.clasificacion 
+{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+.articulo_libro
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 97%;
+	height: 33%;
+	float: left;
+	margin: 2%;	
+
+	border-style: groove;
+	display: inline-block;
+}
+.imagen_libro
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	float: left;
+	width: 16%;	
+	height: 92%;
+	margin: 1%;	
+
+	display: inline-block;
+}
+.contenedor_info_libro
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	float: right;
+	width: 78%;	
+	height: 92%;
+	margin: 1%;
+	overflow: auto;
+	
+	display: inline-block;
+}
+.titulo-autor
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 1%;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+  	font-size: 100%;
+  	font-weight: bold;
+  	color: #42454B;
+}
+.descripcion
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 1%;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+  	font-size: 100%;
+  	color: #42454B;
+}
+.calificacion
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 1%;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+  	font-size: 200%;
+  	color: orange;
+}
+.articulo_detalle
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	width: 97%;
+	height: 66%;
+	float: left;
+	margin: 2%;	
+
+	border-style: groove;
+	display: inline-block;
+}
+.imagen_detalle
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	float: left;
+	width: 38%;	
+	height: 92%;
+	margin: 1%;	
+
+	display: inline-block;
+}
+.contenedor_info_detalle
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	float: right;
+	width: 58%;	
+	height: 92%;
+	margin: 1%;
+	overflow: auto;
+		
+	display: inline-block;
+}
